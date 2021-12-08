@@ -1,0 +1,57 @@
+:root {
+  --primary-whit-color: #ffffff;
+  --title-text-color: #212121;
+  --accen-color: #2196f3;
+  --primary-text-color: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-whit-color);
+  color: var(--primary-text-color);
+}
+/* Шапка */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.2;
+
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.logo-web {
+  color: var(--accen-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accen-color);
+}
+/* Списки */
+
+.list {
+  list-style: none;
+
+  /* Site nav / Auth nav */
+}
+.site-nav-link,
+.auth-nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+
+  text-decoration: none;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus,
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accen-color);
+}
