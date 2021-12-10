@@ -27,13 +27,11 @@ body {
 .logo-web {
   color: var(--accen-color);
 }
-.logo-studio {
+.logo-footer {
   color: var(--primary-whit-color);
 }
 .logo:hover,
-.logo:focus,
-.logo-studio:hover,
-.logo-studio:focus {
+.logo:focus {
   color: var(--accen-color);
 }
 /* Списки */
@@ -79,6 +77,7 @@ body {
   color: var(--primary-whit-color);
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -111,7 +110,7 @@ body {
 }
 .second-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -123,7 +122,7 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -132,11 +131,59 @@ body {
 }
 .team-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* Портфолио */
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: 4px;
+
+  background: var(--secondary-bg-color);
+  color: var(--title-text-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-whit-color);
+  background-color: var(--accen-color);
+}
+.project-link {
+  text-decoration: none;
+}
+.project-link:hover,
+.project-link:focus {
+  background-color: var(--accen-color);
+}
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.project-title:hover,
+.project-title:focus {
+  color: var(--accen-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.03em;
+}
+
 /* Подвал */
 
 .footer {
