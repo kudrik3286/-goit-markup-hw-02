@@ -15,7 +15,6 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   line-height: 1.2;
 
@@ -43,7 +42,6 @@ body {
 }
 .site-nav-link,
 .auth-nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -140,7 +138,6 @@ body {
 
 .filter-button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -191,7 +188,7 @@ body {
 }
 .address-link {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.7;
 
@@ -202,7 +199,6 @@ body {
 }
 .footer-link {
   font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
 
   letter-spacing: 0.03em;
