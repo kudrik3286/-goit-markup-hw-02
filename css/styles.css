@@ -49,6 +49,9 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
 
+  color: var(--primary-text-color);
+}
+.site-nav-link {
   color: var(--title-text-color);
 }
 .site-nav-link:hover,
@@ -57,7 +60,9 @@ body {
 .auth-nav-link:focus {
   color: var(--accen-color);
 }
-
+.activ {
+  color: var(--accen-color);
+}
 /* Основной контент */
 
 .hero {
@@ -158,10 +163,6 @@ body {
 .project-link {
   text-decoration: none;
 }
-.project-link:hover,
-.project-link:focus {
-  background-color: var(--accen-color);
-}
 .project-title {
   font-size: 18px;
   line-height: 2;
@@ -170,15 +171,15 @@ body {
 
   color: var(--title-text-color);
 }
-.project-title:hover,
-.project-title:focus {
-  color: var(--accen-color);
-}
 .project-text {
   font-size: 16px;
   line-height: 1.9;
 
   letter-spacing: 0.03em;
+}
+.project-active:hover,
+.project-active:focus {
+  color: var(--accen-color);
 }
 
 /* Подвал */
