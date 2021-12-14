@@ -60,7 +60,7 @@ body {
 .auth-nav-link:focus {
   color: var(--accen-color);
 }
-.activ {
+.active {
   color: var(--accen-color);
 }
 /* Основной контент */
@@ -176,6 +176,7 @@ body {
   line-height: 1.9;
 
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .project-active:hover,
 .project-active:focus {
